@@ -3,8 +3,6 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* Navbar */
-
 .main-header {
     border: 1px solid black;
     height: 75px;
@@ -19,6 +17,15 @@
     padding-bottom: 20px;
     font-size: larger;
     justify-content: space-between;
+}
+
+.nav-style {
+    font-size: medium;
+}
+
+.p-main-header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
 }
 
 #nav-body {
@@ -38,12 +45,12 @@ nav>a {
     text-decoration: none;
 }
 
-.logo-icon {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-image: url(https://picsum.photos/200);
-    background-size: cover;
+.personal-information {
+    margin: 50px;
+}
+
+.personal-information-content {
+    display: flex;
 }
 
 .summary {
@@ -65,5 +72,17 @@ nav>a {
     margin-top: 50px;
 }
 
+.photo {
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
 
+.table-pi {
+    padding-bottom: 10px;
+}
 
+.table-content-pi {
+    margin-top: 40px;
+}
